@@ -1,0 +1,16 @@
+.counter_bar {
+  @apply flex flex-nowrap gap-3 w-2/3
+}
+
+.counter_name {
+  @apply w-10 text-orange-400
+}
+
+.counter_max {
+  @apply block relative border border-white flex-auto
+}
+
+.counter_current {
+  @apply absolute top-0 left-0 bg-green-600 w-full h-full py-2 -z-10
+}
+

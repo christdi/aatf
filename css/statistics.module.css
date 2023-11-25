@@ -1,0 +1,7 @@
+/* .statistics {
+  @apply flex flex-col items-center gap-5
+} */
+
+.stat_list {
+  @apply flex flex-wrap gap-5 w-3/4 justify-evenly
+}
